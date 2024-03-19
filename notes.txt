@@ -1,0 +1,26 @@
+nodejs - runtime environment
+can have environment in github 
+const 
+let local scope like in cpp
+var global scope
+console.table([a,b]); undefined if not defined
+use strict(for newer version of js)
+alert()// in browser its defined but nodejs doesnt execute as it is
+datatypes:- number,string,bigint(), string, boolean, null, undefined
+typeof null => object
+typeof undefined => undefined
+
+typescript-people uses because it have strict checks like in conversions
+let a=Number(b)
+"123"=123, "126e71t6"=NaN, true=1, false=0
+let a=Boolean(b)
+"qv"=true, ""=false, 12=true, 0=false
+let a=String(b)
+33="33", 
+Primitives datatypes (uses stack)- which are not used by reference//number,string,boolean, null,undefined, symbol, bigint
+non primitives(reference)(uses heap) /objects,array,functions
+string interpolation-> string with `` 
+Rest operator:- in function(...nums) it takes any number of parameters in the function ans treat it as array
+hoisting:- when a function is defined in a var it cant be accessed above the definition but if its just a function then it can be accessed before definition
+if this is referenced in global in browser then it will refer to window object but if it is in node then this will be a empty object
+implicit return=> const func=(num1,num2)=> num1+num2// no need to type the word return
